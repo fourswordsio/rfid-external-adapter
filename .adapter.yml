@@ -1,0 +1,6 @@
+name: RFID scanner adapter
+description: Adapter for a MiFare RC522 RFID scanner. Simulates the hardware interface when no device is connected.
+node_identifier: rfid 
+platforms:
+data_sources:
+parameters:
