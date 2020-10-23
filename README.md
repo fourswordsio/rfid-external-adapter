@@ -1,10 +1,16 @@
 # RFID External Adapter
 
+Demo you can do right now!
+
+[![](http://img.youtube.com/vi/NdmyUhuQpgI/0.jpg)](http://www.youtube.com/watch?v=NdmyUhuQpgI "")
+
+
 This external adapter will interface with a MiFare RC522 RFID scanner (or simulate the scanner when no hardware is connected).
 
 The adapter is a simple flask server which will return the UID of an RFID card on a POST request.
 
 **Contents**:
+
 - `rfid_adapter.py`: main adapter class for the scanner. Parses POST requests and serializes responses. Uses either real or virtual hardware, depending on the `VIRTUAL` flag.
 - `rfid.py`: software driver for the RFID scanner. Not needed for simulated scanner.
 - `test.sh`: run the flask server and make an example POST request.
